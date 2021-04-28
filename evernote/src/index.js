@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-const firebase=require('firebase');
-require('firebase/firestore');
+import firebase from 'firebase/app'
+import  'firebase/storage';
+import  'firebase/firestore';
+
+//const firebase=require('firebase/app');
+//require('firebase/firestore');
 const firebaseConfig = {
   apiKey: "AIzaSyBHrRqdw0wl53-6yfXs6fNzWS7G1-AXIDQ",
   authDomain: "evernote-clone-f3053.firebaseapp.com",
